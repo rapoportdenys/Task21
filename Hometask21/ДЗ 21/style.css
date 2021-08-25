@@ -1,0 +1,472 @@
+*,
+html,
+body {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Helvetica Neue;
+    src        : url(./fonts/HelveticaNeueCyr-Bold.ttf);
+    src        : url(./fonts/HelveticaNeueCyr-Medium.ttf);
+}
+
+body {
+    font-family: Helvetica Neue;
+    font-size  : 18px;
+    line-height: 28px;
+    color      : #000000;
+}
+
+header {
+    width          : 100%;
+    height         : 60px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    align-items    : center;
+}
+
+
+.header-menu {
+    display        : flex;
+    justify-content: flex-start;
+    flex-basis     : 30%;
+}
+
+nav.header-menu ul {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    list-style     : none;
+}
+
+nav.header-menu ul li a {
+    margin-right   : 25px;
+    text-decoration: none;
+    color          : black;
+}
+
+.logo-container {
+    display        : flex;
+    justify-content: center;
+    flex-basis     : 30%;
+}
+
+.logo {
+    width : 62px;
+    height: 16px;
+
+}
+
+.header-button-container {
+    display        : flex;
+    justify-content: flex-end;
+    flex-basis     : 30%;
+}
+
+.button {
+    width           : 80px;
+    height          : 36px;
+    background-color: #0065F2;
+    border          : none;
+    color           : white;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.text-in-main-container {
+    width : 730px;
+    margin: auto;
+}
+
+.text-container-headline {
+    font-size     : 56px;
+    line-height   : 60px;
+    text-align    : center;
+    letter-spacing: -1px;
+    padding-top   : 92px;
+}
+
+.text-container-item {
+    width     : 540px;
+    text-align: center;
+    margin    : 24px auto;
+}
+
+.text-container-button-container {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+}
+
+.text-container-button {
+    width : 124px;
+    height: 48px;
+    margin: 40px 0 0;
+}
+
+.text-container-2 {
+    margin: 92px auto 0;
+    width : 380px;
+}
+
+.text-container-2-item {
+    font-size  : 14px;
+    line-height: 20px;
+    opacity    : .4;
+}
+
+.link-container {
+    width          : 1107px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    margin         : 50px auto 0;
+}
+
+/* video-container */
+
+.text-container-3 {
+    width : 450px;
+    margin: 50px auto 20px;
+}
+
+.text-item-2 {
+    font-size  : 16px;
+    line-height: 24px;
+    text-align : center;
+}
+
+.text-container-2-link {
+    width : 51px;
+    margin: 20px auto 0;
+}
+
+.text-container-2-item {
+    text-decoration: none;
+    color          : #0065F2;
+}
+
+.text-container-2-item::after {
+    content : url(./img/Arrow.png);
+    position: relative;
+    top     : 4px;
+    left    : 7px;
+}
+
+.video-container {
+    width          : 930px;
+    height         : 344px;
+    margin         : 40px auto 0;
+    background     : no-repeat url(./img/Background-container-6-image.png);
+    background-size: cover;
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+}
+
+.text-item-3 {
+    font-size  : 14px;
+    line-height: 20px;
+    text-align : center;
+    margin-top : 20px;
+}
+
+/* Feature container */
+
+.chart-container {
+    width          : 100%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    align-items    : center;
+}
+
+.chart-container-text-headline {
+    font-size     : 24px;
+    line-height   : 32px;
+    letter-spacing: -0.1px;
+    margin-bottom : 16px;
+}
+
+.chart-container-text {
+    width: 445px;
+}
+
+.chart-container-text-item {
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.feature-text-container {
+    width: 190px;
+}
+
+.feature-text-container-headline {
+    margin: 16px 0 8px 0;
+}
+
+.feature-text-container-item {
+    font-size  : 14px;
+    line-height: 20px;
+}
+
+/* Chart container-reverse */
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Tagline+headline */
+
+.taglineheadline-container {
+    width : 450px;
+    margin: 60px auto 20px;
+}
+
+.tagline-item {
+    font-size     : 16px;
+    line-height   : 24px;
+    text-align    : center;
+    letter-spacing: 0.1px;
+    margin-bottom : 12px;
+}
+
+.headline-item {
+    font-size     : 32px;
+    line-height   : 38px;
+    text-align    : center;
+    letter-spacing: -0.4px;
+}
+
+/* price container */
+
+.button-container {
+    width          : 150px;
+    margin         : 50px auto 40px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between
+}
+
+.switcher-container {
+    width          : 90px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+}
+
+.switcher {
+    text-decoration: none;
+    color          : black;
+    opacity        : .4;
+    height: 5vh;
+}
+
+.switcher:hover {
+    border-bottom: 2px solid #0065F2;
+    color        : #0065F2;
+}
+
+/* price-main-container */
+
+.price-main-container {
+    width          : 930px;
+    margin         : 40px auto 60px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between
+}
+
+.price-inner-container {
+    width     : 290px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+.price-inner-headline-container {
+    width         : 75px;
+    height        : 28px;
+    vertical-align: center;
+    margin        : 24px 0 35px 183px;
+}
+
+.price-inner-container-headline {
+    font-size  : 18px;
+    line-height: 28px;
+}
+
+.price-inner-item-container {
+    width          : 242px;
+    margin         : auto;
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : flex-end;
+    padding-bottom : 13px;
+    border-bottom  : 1px solid rgb(0, 0, 0, 0.4);
+}
+
+.price-item-1 {
+    font-size     : 56px;
+    line-height   : 60px;
+    letter-spacing: -1px;
+}
+
+.price-item-2 {
+    font-size  : 18px;
+    line-height: 28px;
+}
+
+.text-inner-container {
+    width          : 242px;
+    margin         : 27px auto 0;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.text-inner-item {
+    font-size     : 16px;
+    line-height   : 24px;
+    letter-spacing: 0.1px;
+}
+
+
+.text-inner-list {
+    width              : 242px;
+    margin             : 14px auto 0;
+    list-style-position: inside;
+    height             : 50vh;
+    font-size          : 16px;
+    line-height        : 24px;
+    letter-spacing     : 0.1px;
+}
+
+.text-inner-list li {
+    margin-bottom: 5px;
+}
+
+.inner-button-container {
+    width : 242px;
+    margin: 0 auto 24px;
+}
+
+.action-button {
+    width           : 242px;
+    height          : 48px;
+    background-color: #0065F2;
+    color           : #fff;
+    border          : none;
+}
+
+/* Action link section */
+
+.action-link-container {
+    width : 450px;
+    margin: 70px auto 0;
+}
+
+.action-link-headline {
+    font-size     : 24px;
+    line-height   : 32px;
+    text-align    : center;
+    letter-spacing: -0.1px;
+}
+
+.action-link-inner-container {
+    width : 95px;
+    margin: 20px auto 0;
+}
+
+.action-link-item {
+    text-decoration: none;
+    color          : #0065F2;
+}
+
+.action-link-item::after {
+    content : url(./img/Arrow.png);
+    position: relative;
+    top     : 4px;
+    left    : 7px;
+}
+
+/* Footer */
+
+footer {
+    width          : 100%;
+    height         : 100px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+
+}
+
+
+
+.footer-inner-container-1 {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+
+}
+
+nav.footer-page-menu ul {
+    width          : 552px;
+    list-style     : none;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+
+}
+
+
+nav.footer-page-menu ul li a {
+    text-decoration: none;
+    color          : black;
+}
+
+
+
+nav.footer-social-menu ul {
+    width          : 100px;
+    list-style     : none;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.footer-inner-container-2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.copyright-item {
+    width          : 428px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.copyright-link {
+    text-decoration: none;
+    color          : black;
+}
+
+.copyright-item-text {
+    font-size  : 14px;
+    line-height: 20px;
+    opacity    : 0.4;
+}
