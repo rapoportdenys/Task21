@@ -1,0 +1,124 @@
+    *,
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @font-face {
+        font-family: Helvetica Neue;
+        src: url(./fonts/HelveticaNeueCyr-Bold.ttf);
+        src: url(./fonts/HelveticaNeueCyr-Medium.ttf);
+    }
+    
+    body {
+        font-family: Helvetica Neue;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    header {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .wrap {
+        width: 315px;
+    }
+    
+    nav.header-menu ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    nav.header-menu ul li a {
+        text-decoration: none;
+        margin-right: 25px;
+        color: black;
+    }
+    
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .logo {
+        width: 62px;
+        height: 16px;
+    }
+    
+    .header-button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .button {
+        width: 80px;
+        height: 36px;
+        background-color: #0065F2;
+        border: none;
+        color: white;
+    }
+    
+    .main-container {
+        width: 100%;
+    }
+    
+    .text-container {
+        width: 730px;
+        margin: auto;
+    }
+    
+    .text-container-headline {
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: -1px;
+        padding-top: 92px;
+    }
+    
+    .text-container-item {
+        width: 540px;
+        text-align: center;
+        margin: 24px auto;
+    }
+    
+    .text-container-button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .text-container-button {
+        width: 124px;
+        height: 48px;
+        margin: 40px 0 0;
+    }
+    
+    .text-container-2 {
+        margin: 92px auto 0;
+        width: 380px;
+    }
+    
+    .text-container-2-item {
+        font-size: 14px;
+        line-height: 20px;
+        opacity: .4;
+    }
+    
+    .link-container {
+        width: 1107px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 50px auto 0;
+    }
